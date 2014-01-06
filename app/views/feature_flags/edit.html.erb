@@ -1,0 +1,11 @@
+<style>
+  .field{margin-top: 10px;}
+  .feature-div{padding-top: 100px;padding-left: 30%;padding-bottom: 100px;}
+  .errors{color: red;}
+</style>
+
+
+<div class="feature-div">
+    <p style="font-weight:bold;font-size:23px">Update Feature</p>
+    <%= render :partial => "/feature_flags/form" , :locals => {:path => feature_flag_path(@feature),:method =>:put,:feature => @feature } %>
+</div>
