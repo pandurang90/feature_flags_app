@@ -24,6 +24,58 @@
 <% end %>
 </table>
 
+
+
+    <%if FeatureFlags.enabled? :test12s%>
+    active
+    <%end%><br/>
+
+    <%if FeatureFlags.enabled? :test12s%>
+    active
+    <%end%><br/>
+    <%if FeatureFlags.enabled? :test12s%>
+    active
+    <%end%><br/>
+    <%if FeatureFlags.enabled? :test12s%>
+    active
+    <%end%><br/>
+    <%if FeatureFlags.enabled? :test12s%>
+    active
+    <%end%><br/>
+    <%if FeatureFlags.enabled? :test12s%>
+    active
+    <%end%><br/>
+    <%if FeatureFlags.enabled? :test12s%>
+    active
+    <%end%><br/>
+    <%if FeatureFlags.enabled? :test12s,[:abcdw]%>
+    all active
+    <%end%>
+    <%if FeatureFlags.enabled? :test12s%>
+    active
+    <%end%><br/>
+
+    <%if FeatureFlags.enabled? :test12s%>
+    active
+    <%end%><br/>
+    <%if FeatureFlags.enabled? :test12s%>
+    active
+    <%end%><br/>
+    <%if FeatureFlags.enabled? :test12s%>
+    active
+    <%end%><br/>
+    <%if FeatureFlags.enabled? :test12s%>
+    active
+    <%end%><br/>
+    <%if FeatureFlags.enabled? :test12s%>
+    active
+    <%end%><br/>
+    <%if FeatureFlags.enabled? :test12s%>
+    active
+    <%end%><br/>
+    <%if FeatureFlags.enabled? :test12s,[:abcdw]%>
+    all active
+    <%end%>
 <br />
 
 <%= link_to 'New User', new_user_path %>
