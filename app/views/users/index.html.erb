@@ -48,7 +48,7 @@
     <%if FeatureFlags.enabled? :test12s%>
     active
     <%end%><br/>
-    <%if FeatureFlags.enabled? :test12s,[:abcdw]%>
+    <%if FeatureFlags.enabled? [:test12s,:abcdw]%>
     all active
     <%end%>
     <%if FeatureFlags.enabled? :test12s%>
@@ -73,7 +73,7 @@
     <%if FeatureFlags.enabled? :test12s%>
     active
     <%end%><br/>
-    <%if FeatureFlags.enabled? :test12s,[:abcdw]%>
+    <%if FeatureFlags.enabled? [:test12s,:abcdw]%>
     all active
     <%end%>
 <br />
